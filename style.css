@@ -123,7 +123,7 @@ img{
     width: 100%;
     height: 10%;
     font-size: 50px;
-    margin: 40px;
+    margin: 70px;
     margin-left: 80px;
     color: rgb(253, 253, 253);
     
@@ -162,6 +162,7 @@ img{
     margin-top: 3%;
     display: flex;
     align-items: center;
+    
 }
 .buscar img{
     width: 300px;
@@ -171,10 +172,68 @@ img{
     align-items: center ,center;
     justify-content: center;
     border-radius: 15px;
-    background-color: rgba(139, 156, 156, 0.39);
-    color: #f71963;
-    align-content: center;
+    
+    
+    
     
 }
-
+.diversao {
+    margin: 50px;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    gap: 2rem;
+    
+    
+    
+}
+.diversao  img {
+    
+    font-size:80px;
+    margin-bottom: 2.0rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 2px 2px  rgb(129, 126, 126);
+    background-color: rgb(217, 226, 235);
+    color: #e606515e;
+    transition: all 600ms ease-in
+    
+}
+.diversao img:hover{
+    border: 1px solid #f71963 ;
+    background-color:#f7196344;
+    color: #f71963;
+}
+.diversao h3 {
+    font-size: 15px;
+    display: grid;
+    margin: 1.8rem;
+    transition: all 600ms ease-in;
+    align-items: center;
+    text-align: center center;
+}
+.titu1{
+    margin: 20px;
+    margin-top: -1%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    color:  #f71963;
+    text-transform: uppercase;
+    border-top: 0.4px solid #141414;
+}
+.conteudo-tele{
+    margin: 20px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center center;
+    flex-direction: row;
+    
+}
 
