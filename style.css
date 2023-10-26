@@ -34,10 +34,10 @@ strong{
     justify-content: space-around;
     align-items: center;
     border-top: 0.6px solid rgba(0, 0, 0, 0.164);
-
+    margin-bottom: 1px;
 }
 .rodape{
-    
+    height: 70%;
     padding-left: 40px;
     border-top: 50.6px solid rgba(255, 252, 252, 0.164);
 }
@@ -84,6 +84,7 @@ img{
     align-items: center;
     justify-content: center;
     height: 10px;
+    width: 100%;
     padding: 10px;
     margin: 0rem;
 }
@@ -107,7 +108,7 @@ img{
 
 .texto{
     background-image: linear-gradient( rgba(173, 155, 155, 0.247) , rgba(2, 2, 2, 0.781)), url(./img/fotofundotitulo.jpg);
-    background-position: center center;
+    background-position: center ,center;
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100vw;
@@ -158,42 +159,42 @@ img{
 
 /* buscar */
 .buscar {
-    margin: 0px;
+    margin: 10px;
     margin-top: 3%;
     display: flex;
     align-items: center;
+    
     
 }
 .buscar img{
     width: 300px;
     height: 50px;
     margin-bottom: 110px;
-    display: inline-flex;
+    display:inline-flex;
     align-items: center ,center;
     justify-content: center;
-    border-radius: 15px;
-    
-    
-    
-    
+    border-radius: 15px;    
 }
 .diversao {
+    
     margin: 50px;
     margin-top: 3%;
     display: flex;
-    align-items: center;
+    align-items: center ,center;
     flex-direction: row;
+    align-items: center,center;
+
     padding-bottom: 3rem;
-    gap: 2rem;
+    gap: 50px;
     
     
     
 }
 .diversao  img {
-    
-    font-size:80px;
+    font-size: 40px;
+    height: 40px;
     margin-bottom: 2.0rem;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -201,7 +202,9 @@ img{
     box-shadow: 2px 2px 2px 2px  rgb(129, 126, 126);
     background-color: rgb(217, 226, 235);
     color: #e606515e;
-    transition: all 600ms ease-in
+    transition: all 600ms ease-in;
+    
+    
     
 }
 .diversao img:hover{
@@ -215,25 +218,215 @@ img{
     margin: 1.8rem;
     transition: all 600ms ease-in;
     align-items: center;
-    text-align: center center;
+    text-align: center ,center;
+    
 }
 .titu1{
     margin: 20px;
-    margin-top: -1%;
+    margin-top: -4%;
     text-align: center;
-    justify-content: center;
+    justify-content: center ,center;
     padding-bottom: 1rem;
     gap: 1rem;
     color:  #f71963;
     text-transform: uppercase;
-    border-top: 0.4px solid #141414;
+    border-top: 0.4px  #857777af;
+    text-decoration: none;
+    margin-left: 25px;
 }
 .conteudo-tele{
-    margin: 20px;
-    margin-top: 1%;
+    background-position: center;
+    width: 100vw;
     display: flex;
-    align-items: center center;
     flex-direction: row;
+    justify-content: center, ;
+    align-items: center , center;
+    padding-bottom: 3rem;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.txt1 {
+    font-size: 17px;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #111011 ;
+    gap: 20rem;
+    left: 13rem;
+    transition: all 600ms ease-in;
+}
+.txt1:hover{
+    border: 1px solid #f8f3f5 ;
+    background-color:#fcf8f9;
+    color:#f71963;
+}
+/* celulares */
+.celulares{
+    left: 40vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center , center;
+    justify-content:right;
+    border: 2px;
+    cursor: pointer;
+    
+    
+}
+.intens-celulares{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center, ;
+    align-items: center ;
+    padding-bottom: 5rem;
+    margin: 10px;
+    margin-left: 25px;
+    gap: 60px;
+    
+}
+.intens-celulares .informaçao{
+    font-size: 20px;
+    width: 240px;
+    height: 200px;
+    top : 22px;
+    left: 343px;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 1px 3px rgba(73, 68, 68, 0.384);
+    align-items: center;
+    justify-content: center , center;
+    flex-direction: row;
+    margin-left: 25px;
     
 }
 
+.intens-celulares img{
+    width: 240px;
+    height: 200px;
+    top : 22px;
+    left: 33px;
+    margin-left: 25px;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 1px 3px rgba(73, 68, 68, 0.384);
+    align-items: center;
+    text-align: center;
+    justify-content: center , center;
+    flex-direction: row;
+    
+}
+.intens-celulares h5 {
+    font-size: 12px;
+    gap: 20px;
+    border: 2px;
+    align-items: center ,center;
+    margin-left: 10px;
+    line-height: 23px;
+    color: #817581;
+    
+}
+.intens-celulares .promo{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#817581;
+    text-decoration: line-through;
+}
+.intens-celulares h4{
+    height: 30px;
+    font-size:20px ;
+    line-height: 23px;
+    margin-left: 10px;
+    color: black;
+}
+.intens-celulares h6 {
+    font-size:13px ;
+    line-height: 23px;
+    margin-left: 10px;
+    color:#817581;
+}
+.intens-celulares .frete{
+    color: #ff0055;
+}
+.intens-celulares .compra{
+background-color: #f71963;
+color: #f8f3f5;
+font-size: 18px;
+height: 20%;
+width: 90%;
+margin-left: 10px;
+border-radius: 4px 4px 4px 4px ;
+transition: all 600ms ease-in;
+text-transform: uppercase;
+}
+.compra:hover{
+    border: 1px solid #f8f3f5 ;
+    background-color:#fcf8f9;
+    color:#f71963;
+}
+.parceiros{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center , center;
+    margin-left: 20px;
+    
+
+
+}
+.parceiros .txt2{
+    background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
+    margin-left: 30px;
+    height: 20vw;
+    width: 40%;
+    left: 100%;
+    border-radius: 8px 8px 8px 8px;
+
+}
+.parceiros .txt3{
+    background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
+    margin-left: 120px;
+    height: 20vw;
+    width: 40%;
+    left: 100%;
+    background-size: 100%;
+    border-radius: 8px 8px 8px 8px;
+
+}
+.parceiros h2  {
+    font-size: 40px;
+    width: 300%;
+    height: 30%;
+    line-height: 450%;
+    margin-left: 40px;
+    color: #ffffff;
+    
+    
+}
+.parceiros h4{
+    font-size: 12px;
+    width: 300%;
+    height: 30%;
+    line-height: 950%;
+    margin-left: 40px;
+    color: #ffffff;
+}
+.parceiros .confirmar{
+
+    background-color: #f71963;
+    color: #f8f3f5;
+    font-size: 13px;
+    height: 15%;
+    width: 25%;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 600ms ease-in;
+    text-transform: uppercase;
+}
+.confirmar:hover{
+    color: #f8f3f5;
+    border: 1px solid #f71963 ;
+    background-color: transparent;
+    color: #f71963;
+}
