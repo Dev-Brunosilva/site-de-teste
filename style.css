@@ -371,6 +371,7 @@ text-transform: uppercase;
     align-items: center , center;
     margin-left: 20px;
     
+    
 
 
 }
@@ -412,6 +413,100 @@ text-transform: uppercase;
     color: #ffffff;
 }
 .parceiros .confirmar{
+
+    background-color: #f71963;
+    color: #f8f3f5;
+    font-size: 13px;
+    height: 15%;
+    width: 25%;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 600ms ease-in;
+    text-transform: uppercase;
+}
+.confirmar:hover{
+    color: #f8f3f5;
+    border: 1px solid #f71963 ;
+    background-color: transparent;
+    color: #f71963;
+}
+/* titulos*/
+.titu2{
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center ,center;
+    color:  #f71963;
+    text-decoration: none;
+    margin-left: 10px;
+    height: 10px;
+}
+.vertodos {
+    height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center ,center;
+    color:  #0c0c0c;
+    margin-left: 2px;
+}
+
+/*produtos */
+
+.produtos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center , center;
+    margin-left: 20px;
+    
+    
+
+
+}
+.produtos .txt4{
+    background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
+    margin-left: 50px;
+    height: 20vw;
+    width: 37%;
+    left: 100%;
+    background-size: 100%;
+    border-radius: 6px;
+    
+
+}
+.produtos .txt5{
+    background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
+    margin-left: 140px;
+    height: 20vw;
+    width: 37%;
+    left: 100%;
+    background-size: 100%;
+    border-radius: 6px;
+
+}
+.produtos h2  {
+    font-size: 40px;
+    width: 300%;
+    height: 30%;
+    line-height: 450%;
+    margin-left: 40px;
+    color: #ffffff;
+    
+    
+}
+.produtos h4{
+    font-size: 12px;
+    width: 300%;
+    height: 30%;
+    line-height: 950%;
+    margin-left: 40px;
+    color: #ffffff;
+}
+.produtos .confirmar {
 
     background-color: #f71963;
     color: #f8f3f5;
