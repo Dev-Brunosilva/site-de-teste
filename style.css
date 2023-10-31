@@ -2,7 +2,7 @@
     
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     list-style: none;
     text-decoration: none;
     border: none;
@@ -537,24 +537,140 @@ text-transform: uppercase;
     height: 70px;
 }
 .vtex{
-    height: 30vh;
+    height: 160px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    font-size: 10px;
-    cursor: pointer;
     gap: 30px;
     
 }
 .vtex1{
-font-size: 83px;
-width: 130px;
-height: 130px;
-top: 2px;
-left: 761px;
-margin-left: 40px;
-border-radius:50%;
-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 110px;
+    top: 2px;
+    left: 761px;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius:50%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.212);
 }
 
+/* rodape*/
+.rodape1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center ;
+    font-size: 9px;
+    gap: 100px;
+    background-color: #2b282b;
+}
+.rodape1 i {
+    height: 19%;
+    width: 7%;
+    top: 20px;
+    color: #f8f3f5;
+}
+.txt6{
+    
+    height: 9vh;
+    color: #f8f3f5;
+    font-size: 17px;
+    text-align: center center;
+    align-items: center;
+}
+.txt7{
+    height:5vh ;
+    color: #9b8c92;
+}
+.txt8 {
+    height: 8vh;
+    color: #f8f3f5;
+    font-size: 18px;
+    text-align: center center;
+    align-items: center;
+    margin-left: 55px;
+
+}
+.pagamentos img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 90px;
+
+}
+.login{
+    width: 250px;
+    height: 160px;
+    left: 700px;
+    border-radius: 10px;
+    background-color: #f8f3f5;
+    gap: 10px;
+}
+.login span{
+    font-size: 12px;
+    text-transform: lowercase;
+    height: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    margin-top: 9px;
+    color: #2b282b;
+
+}
+.login h2{
+    height: 2vw;
+    margin-left: 19px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+.login p{
+    height: 3vw;
+    margin-left: 19px;
+    margin-top: 7px;
+    text-align: center;
+    align-items: center, center;
+    justify-content: center;
+}
+.login input{
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 7px;
+}
+.botao1{
+    background-color: #f71963;
+    height: 20px;
+    width: 35px;
+    color: #f8f3f5;
+    text-transform: uppercase;
+}
+.botao1:hover{
+    color: #f8f3f5;
+    border: 1px solid #f71963 ;
+    background-color: transparent;
+    color: #f71963;
+}
+.final{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 0.6px solid rgb(255, 255, 255);
+    background-color: #2b282b;
+}
+.final h4{
+    color: #f8f3f5;
+}
+.final1{
+    margin: 1%;
+    width: 20%;
+    height: 20%;
+}
