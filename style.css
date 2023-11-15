@@ -403,17 +403,18 @@ text-transform: uppercase;
     border-color: #0c0c0c;
 }
 .comprarmodal{
-    background-color: #f71963;
+    background-color: #ff0037;
     color: white;
     height: 30px;
     width: 160px;
     border-radius: 6px;
     margin-top: 10px;
     cursor: pointer;
+    text-transform: uppercase;
     transition: all 600ms ease-in;
 }
 .comprarmodal:hover{
-    background-color: red;
+    background-color: rgba(42, 133, 42, 0.719);
 }
 .janela-modal.abrir{
     display: flex;
@@ -719,6 +720,8 @@ text-transform: uppercase;
     width: 15%;
     height: 17%;
 }
+/* animação em css  para o modal */
+
 @keyframes abrirmodal {
     from{
         opacity: 0;
