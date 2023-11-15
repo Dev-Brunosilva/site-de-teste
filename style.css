@@ -403,10 +403,10 @@ text-transform: uppercase;
     border-color: #0c0c0c;
 }
 .comprarmodal{
-    background-color: #f71981;
+    background-color: #f71963;
     color: white;
     height: 30px;
-    width: 100px;
+    width: 160px;
     border-radius: 6px;
     margin-top: 10px;
     cursor: pointer;
@@ -417,6 +417,9 @@ text-transform: uppercase;
 }
 .janela-modal.abrir{
     display: flex;
+}
+.abrir .modal{
+    animation: abrirmodal 1.5s;
 }
 
 .parceiros{
@@ -715,4 +718,18 @@ text-transform: uppercase;
     margin: 1%;
     width: 15%;
     height: 17%;
+}
+@keyframes abrirmodal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, 0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.abrir .modal{
+    animation: abrirmodal 1.5s;
 }
