@@ -342,7 +342,7 @@ text-transform: uppercase;
 .compra:hover{
     border: 1px solid #f8f3f5 ;
     background-color:#fcf8f9;
-    color:#f71963;
+    color:#f71976;
 }
 
 .janela-modal{
@@ -373,8 +373,6 @@ text-transform: uppercase;
     gap: 60px;
     
 }
-
-
 .fechar{
     position: absolute;
     top: -10px;
@@ -402,31 +400,30 @@ text-transform: uppercase;
     width: 90px;
     background-color: #2b282b4f;
     gap: 20px;
-    border: #111011;
+    border-color: #0c0c0c;
 }
 .comprarmodal{
-    background-color: #f71963;
+    background-color: #f71981;
     color: white;
-    justify-content: end;
-    height: 40px;
-    width: 90px;
-    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 600ms ease-in;
 }
-
+.comprarmodal:hover{
+    background-color: red;
+}
 .janela-modal.abrir{
     display: flex;
 }
+
 .parceiros{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction:row;
-    align-items: center , center;
-    margin-left: 20px;
-    
-    
-
-
+    align-items: center ;
 }
 .parceiros .txt2{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
@@ -480,9 +477,9 @@ text-transform: uppercase;
 }
 .confirmar:hover{
     color: #f8f3f5;
-    border: 1px solid #f71963 ;
+    border: 1px solid #fcfafb ;
     background-color: transparent;
-    color: #f71963;
+    color: #fffdfe;
 }
 /* titulos*/
 .titu2{
@@ -513,12 +510,7 @@ text-transform: uppercase;
     height: 100%;
     display: flex;
     flex-direction:row;
-    align-items: center , center;
-    margin-left: 20px;
-    
-    
-
-
+    align-items: center ;
 }
 .produtos .txt4{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
@@ -528,8 +520,6 @@ text-transform: uppercase;
     left: 100%;
     background-size: 100%;
     border-radius: 6px;
-    
-
 }
 .produtos .txt5{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
@@ -546,10 +536,8 @@ text-transform: uppercase;
     width: 300%;
     height: 30%;
     line-height: 450%;
-    margin-left: 40px;
+    margin-left: 20px;
     color: #ffffff;
-    
-    
 }
 .produtos h4{
     font-size: 12px;
@@ -560,12 +548,11 @@ text-transform: uppercase;
     color: #ffffff;
 }
 .produtos .confirmar {
-
     background-color: #f71963;
     color: #f8f3f5;
-    font-size: 13px;
-    height: 20%;
-    width: 35%;
+    font-size: 17px;
+    height: 15%;
+    width: 25%;
     margin-left: 40px;
     cursor: pointer;
     border-radius: 10px;
@@ -574,9 +561,9 @@ text-transform: uppercase;
 }
 .confirmar:hover{
     color: #f8f3f5;
-    border: 1px solid #f71963 ;
+    border: 1px solid #faf7f8 ;
     background-color: transparent;
-    color: #f71963;
+    color: #faf5f7;
 }
 .navegue{
     font-size: 35px;
@@ -729,5 +716,3 @@ text-transform: uppercase;
     width: 15%;
     height: 17%;
 }
-
-
