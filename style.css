@@ -170,7 +170,7 @@ img{
     align-items: center;
     padding-bottom: 4rem;
     gap: 25px;
-    margin-left: 9%;
+    margin-left: 8%;
     
     
     
@@ -192,7 +192,7 @@ img{
 }
 .diversao img:hover{
     border: 1px solid #f71963 ;
-    background-color:#f7196344;
+    background-color:#f719ec44;
     color: #f71963;
 }
 .diversao h3 {
@@ -680,6 +680,12 @@ text-transform: uppercase;
     text-align: center;
     align-items: center, center;
     justify-content: center;
+}
+.login input{
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 7px;
+    
 }
 .login input{
     height: 30px;
