@@ -1,0 +1,19 @@
+/* Tamanho de desktop padrão */
+@media only screen and (max-width: 1200px) {
+    .texto{
+        display:block;
+    }
+}
+/* Tablets em modo retrato */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets em modo retrato aqui */
+}
+
+/* Tablets em modo paisagem */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets em modo paisagem aqui */
+}
+@media only screen and (max-width: 767px) {
+    /* Estilos para telefones em modo retrato aqui */
+}
+

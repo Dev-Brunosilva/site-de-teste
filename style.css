@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -13,17 +14,23 @@
 /*topo*/
 
 .topo {
-    width: 100vw;
+    width: 100%;
     height: 20px;
     font-size: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-    color: rgb(129, 114, 114);
-    
+    gap: 108px;
+    color:rgb(159, 159, 159, 1);
+    font-family: 'Poppins', sans-serif;
+}
+.topo1{
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
 }
 strong{
-    color: #f71963;
+    color: rgba(247, 25, 99, 1);
 }
 
 /* meu header */
@@ -35,28 +42,34 @@ strong{
     justify-content: space-around;
     align-items: center;
     border-top: 0.3px solid rgba(0, 0, 0, 0.164);
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 .rodape{
     height: 90px;
     padding-left: 40px;
     border-top: 0.3px solid rgba(255, 252, 252, 0.164);
+
 }
 img{
-    
-    padding-left: 0rem;
+    margin-right: 0%;
+    padding-left: 10%;
     padding-right: 0rem;
+    
+}
+.cabecalho .lupa{
+    margin-left: -15%;
+    cursor: pointer;
 }
 
 .cabecalho input{
     width: 45%;
     height: 40px;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 10px ;
-    background-color: rgba(146, 136, 136, 0.315);
-    color: #e90445;
-    margin-bottom: 7px;
-    margin-right: 20px;
+    background-color: rgba(246, 245, 242, 1);
+    color:rgba(247, 25, 99, 1);
+    margin-bottom: 0px;
+    margin-right: -20px;
     
     
 }
@@ -66,7 +79,7 @@ img{
     position:relative;
     padding-left: 0rem;
     padding-right: 0rem;
-    margin-right: 2rem;
+    margin-right: -0px;
     
 }
 .cabecalho li a {
@@ -75,9 +88,10 @@ img{
 
 .cabecalho li a:hover{
     font-size: 16px;
-    color: #f71963;
+    color: rgba(247, 25, 99, 1);
     
 }
+/* lista de compras */
 .lista-menu{
     border-top: 0.1px solid rgba(63, 59, 59, 0.411);
     display: flex;
@@ -87,21 +101,25 @@ img{
     height: 10px;
     width: 100%;
     padding: 15px;
+    border: #0c0c0c;
+    border-radius: black;
 }
 .lista-menu li{
-    font-size: 10px;
+    font-size: 11px;
     padding: 40px;
     text-transform: uppercase;
-    
+    border: #0c0c0c;
+    border-radius: black;
 } 
 .lista-menu li a{
-    color: #504649a4;
+    color: rgb(159, 159, 159, 1);
     transform: al 600ms ease-in;
+    
 }
 
 .lista-menu li a:hover{
-    font-size: 17px;
-    color:#f71963;
+    font-size: 15px;
+    color:rgba(247, 25, 99, 1);
 }
 
 /* imagen no fundo*/
@@ -112,12 +130,12 @@ img{
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 30vw;
+    height: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-
+    
 }
 
 .texto h1  {
@@ -126,92 +144,105 @@ img{
     height: 10%;
     font-size: 50px;
     margin: 30px;
-    margin-left: 80px;
     color: rgb(253, 253, 253);
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 .texto h3 {
     width: 100%;
     height: 30%;
     font-size: 30px;
-    margin-left: 80px;
+    margin-left: 30px;
     color: rgba(252, 252, 252, 0.795);
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .botao{
-    background-color: #f71963;
+    background-color:rgba(247, 25, 99, 1);
     font-size: 150%;
     width: 230px;
     height: 50px;
-    margin: 80px;
+    margin: 30px;
     cursor: pointer;
-    background-color: #f71963;
     border-radius: 5px;
     color: rgb(240, 231, 231);
-    font-weight: 70;
-    margin-top: -10rem;
+    font-weight: 70%;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
     transition: all 600ms ease-in
 }
 .botao:hover{
-    border: 1px solid #f71963 ;
+    border: 1px solid rgba(247, 25, 99, 1);
     background-color: transparent;
-    color: #f71963;
+    color: rgba(247, 25, 99, 1);
 }
 
 /* buscar */
 
 .diversao {
-    margin-top: 20px;
-    height: 200px;
+    margin-top: 40px;
+    height: 100%;
     display: flex;
     text-align: center;
     align-items: center ,center;
     flex-direction: row;
+    padding-bottom: 3rem;
+    gap: 6%;
+    margin-left: 6%;
+}
+.diversao h3{
+    color: #2A2A2A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
     align-items: center;
-    padding-bottom: 4rem;
-    gap: 25px;
-    margin-left: 8%;
-    
-    
-    
+    justify-content: center;
+    text-align: center;
 }
 .diversao  img {
     height: 65%;
     display: flex;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border-radius: 3px 3px 3px 3px;
-    box-shadow: 2px 2px 2px 2px  rgb(129, 126, 126);
-    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 4px 4px 4px 4px;
+    background-color:rgba(244, 244, 244, 1);
     color: #df23625e;
     transition: all 600ms ease-in;
-    
-    
-    
 }
 .diversao img:hover{
-    border: 1px solid #f71963 ;
-    background-color:#f719ec44;
-    color: #f71963;
+    border: 1px solid #faf9f9 ;
+    background-color:#faf7fa44;
 }
-.diversao h3 {
+.diversao .alinhar {
     font-size: 15px;
-    margin: 1.8rem;
+    font-family: 'Poppins', sans-serif;
     transition: all 600ms ease-in;
     align-items: center;
     text-align: center ,center;
     justify-content: center;
-    color: #e90445;
+    margin-top: 20%;
+    color: #75656a;
 }
+.diversao .alinhar1 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 600ms ease-in;
+    align-items: center;
+    text-align: center ,center;
+    justify-content: center;
+    margin-top: 20%;
+    color: rgba(247, 25, 99, 1);
+}
+/* produtos relacionados */
 .titu1{
     margin: 20px;
-    margin-top: 3%;
+    margin-top: 1%;
     text-align: center;
     justify-content: center ,center;
     padding-bottom: 3rem;
     gap: 1rem;
-    color:  #f71963;
+    color: rgba(247, 25, 99, 1);
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 25px;
@@ -220,130 +251,160 @@ img{
 
 .conteudo-tele{
     background-position: center;
-    width: 100%;
+    width: 93%;
     display: flex;
     flex-direction: row;
     justify-content: center ;
     align-items: center , center;
     padding-bottom: 2rem;
     margin-bottom: 30px;
-    margin-left: 7px;
+    margin-left: 40px;
+    margin-top: -1%;
 }
 .txt1 {
-    font-size: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 30px;
     cursor: pointer;
     border: 1px solid #111011 ;
     gap: 10rem;
     left: 12rem;
+    color: rgba(59, 59, 59, 1);
+    background-color: rgba(255, 255, 255, 1);
     transition: all 600ms ease-in;
 }
 .txt1:hover{
-    border: 1px solid #f8f3f5 ;
-    background-color:#fcf8f9;
-    color:#f71963;
+    border: 1px solid #f8f3f5;
+    background-color: #faf8f8;
+    color: rgba(247, 25, 99, 1);
 }
-/* celulares */
-.celulares{
-    left: 100%;
+.txt2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
-    display: contents;
-    flex-direction: column;
-    align-items: center , center;
-    justify-content:right;
+    height: 30px;
+    color: rgba(247, 25, 99, 1);
+    background-color: rgba(255, 255, 255, 1);
     cursor: pointer;
-    
-    
+    border: 1px solid #0c0c0c ;
+    gap: 10rem;
+    left: 12rem;
+    transition: all 600ms ease-in;
 }
-.intens-celulares{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center, ;
-    align-items: center ;
-    padding-bottom: 5rem;
-    margin: 30px;
-    margin-left: 10px;
-    gap: 67px;
-    
-}
-.intens-celulares .informaçao{
-    font-size: 20px;
-    width: 240px;
-    height: 200px;
-    top : 22px;
-    left: 343px;
-    box-shadow: 1px 1px 1px 3px rgba(92, 86, 86, 0.247);
-    align-items: center;
-    justify-content: center , center;
-    flex-direction: row;
-    margin-left: 25px;
-    
+.txt2:hover{
+    border: 1px solid #f8f3f5;
+    background-color: #fcf8f9;
+    color: rgba(247, 25, 99, 1);
 }
 
-.intens-celulares img{
-    width: 240px;
-    height: 200px;
-    top : 22px;
-    left: 33px;
-    margin-left: 25px;
-    box-shadow: 1px 1px 1px 3px rgba(73, 68, 68, 0.274);
+
+/* teste */
+.diversao1 {
+    width: 100%;
+    display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: center , center;
+    justify-content: space-around;
     flex-direction: row;
-    border-radius: 5px;
-    
+    margin-bottom: 10%;
 }
-.intens-celulares h5 {
-    font-size: 12px;
+.animaçao{
+    width: 100%;
+    margin-bottom: -1px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 480px));
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+.diversao1 .animaçao img{
+    width: 80%;
+    height: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 380px));
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70%;
+    border-radius: 4%;
+    box-shadow: 0 0 10px 3px rgba(134, 127, 127, 0.5);
+}
+.animaçao .informaçao1{
+    background-color: rgb(255, 253, 253);
+    margin-top: -78%;
+    padding: 38px;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+.animaçao h5 {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
     border: 2px;
     align-items: center ,center;
-    margin-left: 10px;
-    line-height: 23px;
-    color: #817581;
+    margin-left: -30px;
+    line-height: 18px;
+    color: rgb(63, 63, 64, 1);
     
 }
-.intens-celulares .promo{
-    height: 30px;
+.animaçao .promo{
+    height: 20px;
+    margin-top: 8%;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    color:#817581ce;
+    color:rgb(128, 128, 128, 1);
     text-decoration: line-through;
+    margin-left: -30px;
 }
-.intens-celulares h4{
+.animaçao h4{
     height: 30px;
     font-size:20px ;
+    font-family: 'Poppins', sans-serif;
     line-height: 23px;
-    margin-left: 10px;
-    color: black;
+    margin-left: -30px;
+    color:rgb(63, 63, 64, 1);
+
 }
-.intens-celulares h6 {
-    font-size:13px ;
-    line-height: 23px;
-    margin-left: 10px;
-    color:#817581;
+.animaçao h6 {
+    font-size:11px ;
+    font-family: 'Poppins', sans-serif;
+    line-height: 15px;
+    margin-left: -30px;
+    color:rgb(63, 63, 64, 1);
+
 }
-.intens-celulares .frete{
-    color: #ff0055;
+.animaçao .frete{
+    color: rgba(247, 25, 99, 1);
 }
-.intens-celulares .compra{
-background-color: #f71963;
+.animaçao .compra{
+background-color:rgba(247, 25, 99, 1);
 color: #f8f3f5;
-font-size: 18px;
-height: 20%;
-width: 90%;
-margin-left: 10px;
-border-radius: 4px 4px 4px 4px ;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+height: 210%;
+width: 140%;
+line-height: 35px;
+border-radius: 4px;
+margin-top: 10%;
+margin-left: -35px;
 transition: all 600ms ease-in;
 text-transform: uppercase;
 }
 .compra:hover{
     border: 1px solid #f8f3f5 ;
     background-color:#fcf8f9;
-    color:#f71976;
+    color:rgba(247, 25, 99, 1);
 }
+
+
+
+/*modal*/
 
 .janela-modal{
     width: 100%;
@@ -358,58 +419,86 @@ text-transform: uppercase;
     z-index: 999;
 }
 .modal{
-    width: 50%;
-    height: 45%;
+    width: 60%;
+    height: 60%;
     min-width: 450px;
     min-height: 200px;
-    background-color:rgb(255, 254, 254);
+    background-color:rgb(250, 249, 249);
     backdrop-filter: blur(10px);
-    padding: 10px;
+    padding: 35px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content:center ;
     font-size: 9px;
-    gap: 60px;
+    font-family: 'Poppins', sans-serif;
+    gap: 10%;
     
+}
+.janela-modal .modal img{
+    width: 50%;
+    height: 80%;
+    box-shadow: none;
 }
 .fechar{
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: 7px;
+    right: 7px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 0;
-    background-color: red;
-    color: white;
+    background-color: rgb(253, 249, 249);
+    color: rgb(12, 12, 12);
     font-size: 20px;
     cursor: pointer;
+    transition: all 600ms ease-in;
 }
 .txtmodal{
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     line-height: 30px;
     
 }
 .txtmodal h3 strong{
-    
-    color: #0c0c0c;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    gap: 10%;
+    color: rgb(4, 30, 80, 1);
+}
+.txtmodal h3 {
+    font-size: 18px;
+    margin-top: -4%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(4, 30, 80, 1);
+}
+.txtmodal h6{
+    color: rgb(34, 34, 34, 1);
+    margin-left: 1%;
+}
+.txtmodal h5{
+    margin-top: -4%;
+    color: #070531;
 }
 .txtmodal input{
-    height: 20px;
+    height: 30px;
     width: 90px;
     background-color: #2b282b4f;
     gap: 20px;
-    border-color: #0c0c0c;
+    border-color:rgb(4, 30, 80, 1);
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 .comprarmodal{
-    background-color: #ff0037;
+    background-color: rgba(247, 25, 99, 1);
     color: white;
-    height: 30px;
-    width: 160px;
+    height: 40px;
+    width: 200px;
     border-radius: 6px;
-    margin-top: 10px;
     cursor: pointer;
+    margin-top: 2%;
     text-transform: uppercase;
     transition: all 600ms ease-in;
 }
@@ -420,8 +509,10 @@ text-transform: uppercase;
     display: flex;
 }
 .abrir .modal{
-    animation: abrirmodal 1.5s;
+    animation:abrirmodal 1.5s;
 }
+/* parceiros*/
+
 
 .parceiros{
     width: 100%;
@@ -431,17 +522,17 @@ text-transform: uppercase;
 }
 .parceiros .txt2{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 30px;
-    height: 20vw;
+    margin-left: 65px;
+    height: 23vw;
     width: 40%;
-    left: 100%;
+    left: 110%;
     border-radius: 8px 8px 8px 8px;
 
 }
 .parceiros .txt3{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
     margin-left: 120px;
-    height: 20vw;
+    height: 23vw;
     width: 40%;
     left: 100%;
     background-size: 100%;
@@ -450,27 +541,31 @@ text-transform: uppercase;
 }
 .parceiros h2  {
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
     width: 300%;
     height: 30%;
     line-height: 450%;
     margin-left: 40px;
-    color: #ffffff;
+    color:rgb(255, 255, 255, 1);
     
     
 }
 .parceiros h4{
-    font-size: 12px;
-    width: 300%;
-    height: 30%;
-    line-height: 950%;
-    margin-left: 40px;
-    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 110%;
+    height:40%;
+    line-height: 900%;
+    margin-left: 45px;
+    color: rgb(255, 255, 255, 1);
 }
 .parceiros .confirmar{
 
-    background-color: #f71963;
+    background-color: rgba(247, 25, 99, 1);
     color: #f8f3f5;
     font-size: 13px;
+    font-weight: 900;
     height: 15%;
     width: 25%;
     margin-left: 40px;
@@ -488,23 +583,25 @@ text-transform: uppercase;
 /* titulos*/
 .titu2{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     margin: 40px;
     text-align: center;
     justify-content: center ,center;
-    color:  #f71963;
+    color:  rgba(247, 25, 99, 1);
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 80px;
     height: 10px;
 }
 .vertodos {
     height: 20px;
     margin-top: 10px;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     margin: 40px;
     text-align: center;
     justify-content: center ,center;
     color:  #0c0c0c;
-    margin-left: 2px;
+    margin-left: 40px;
 }
 
 /*produtos */
@@ -518,7 +615,7 @@ text-transform: uppercase;
 }
 .produtos .txt4{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 50px;
+    margin-left: 90px;
     height: 20vw;
     width: 37%;
     left: 100%;
@@ -537,27 +634,32 @@ text-transform: uppercase;
 }
 .produtos h2  {
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
     width: 300%;
     height: 30%;
     line-height: 450%;
     margin-left: 20px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
 }
 .produtos h4{
     font-size: 12px;
+    font-family: 'Poppins', sans-serif;
     width: 300%;
     height: 30%;
-    line-height: 950%;
-    margin-left: 40px;
-    color: #ffffff;
+    line-height: 900%;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5%;
 }
 .produtos .confirmar {
-    background-color: #f71963;
+    background-color: rgba(247, 25, 99, 1);
     color: #f8f3f5;
-    font-size: 17px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     height: 15%;
     width: 25%;
-    margin-left: 40px;
+    margin-left: 20px;
     cursor: pointer;
     border-radius: 10px;
     transition: all 600ms ease-in;
@@ -571,35 +673,34 @@ text-transform: uppercase;
 }
 .navegue{
     font-size: 35px;
-    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin: 35px;
     text-align: center;
     justify-content: center ,center;
-    color:  #f71963;
+    color:  rgba(247, 25, 99, 1);
     text-decoration: none;
     margin-left: 10px;
     height: 70px;
 }
+/* imagens vtex */
 .vtex{
-    height: 180px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    
+    text-align: center;
+    justify-content: space-evenly;
 }
-.vtex1{
+.vtex .vtex1{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 130px;
-    height: 110px;
-    top: 2px;
-    left: 761px;
-    margin-left: 40px;
+    align-items: center ,center;
+    text-align: center;
+    width: 20%;
+    height: 20%;
     cursor: pointer;
-    border-radius:50%;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.212);
+    margin-bottom: 5%; 
+    margin: 3%;
+    margin-left: -6%;
 }
 
 /* rodape*/
@@ -611,35 +712,53 @@ text-transform: uppercase;
     flex-direction: row;
     justify-content:center ;
     font-size: 9px;
+    font-family: 'Poppins', sans-serif;
     gap: 100px;
-    background-color: #2b282b;
+    background-color:#2A2A2A;
+    margin-top: 4%;
 }
 .rodape1 i {
     height: 19%;
     width: 7%;
     top: 20px;
     color: #f8f3f5;
+    
 }
 .txt6{
-    
-    height: 9vh;
+    margin-top: 10%;
+    height: 9vh ;
     color: #f8f3f5;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
     text-align: center center;
     align-items: center;
+    margin-bottom: 5%;
 }
 .txt7{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
     height:5vh ;
     color: #9b8c92;
 }
-.txt8 {
+.rodape1 .txt8 {
+    height: 8vh;
+    color: #fdfcfd;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center center;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.txt9 {
+    margin-top: 5%;
     height: 8vh;
     color: #f8f3f5;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     text-align: center center;
     align-items: center;
     margin-left: 4px;
-
 }
 .pagamentos img {
     display: flex;
@@ -658,13 +777,14 @@ text-transform: uppercase;
 }
 .login span{
     font-size: 12px;
+    font-family: 'Poppins', sans-serif;
     text-transform: lowercase;
     height: 1vw;
     align-items: center;
     justify-content: center;
     margin-left: 7px;
     margin-top: 9px;
-    color: #2b282b;
+    color: #2A2A2A;
 
 }
 .login h2{
@@ -694,7 +814,7 @@ text-transform: uppercase;
     
 }
 .botao1{
-    background-color: #f71963;
+    background-color:rgba(247, 25, 99, 1);
     height: 20px;
     width: 35px;
     color: #fffefe;
@@ -702,9 +822,9 @@ text-transform: uppercase;
 }
 .botao1:hover{
     color: #f8f3f5;
-    border: 1px solid #f71963 ;
+    border: 1px solid rgba(247, 25, 99, 1);
     background-color: transparent;
-    color: #f71963;
+    color: rgba(247, 25, 99, 1);
 }
 .final{
     height: 100%;
@@ -713,19 +833,24 @@ text-transform: uppercase;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    border-top: 0.6px solid rgb(255, 255, 255);
-    background-color: #382e38;
+    border-top: 0.6px solid rgb(250, 247, 247);
+    background-color: #2A2A2A;
 }
 .final h4{
     color: #f8f3f5;
     gap: 30px;
+    margin-top: 3%;
+}
+.sobrenos .final6{
+    color: #fdfdff;
+    margin-top: 10%;
 }
 
 .final1{
     margin: 1%;
-    width: 15%;
-    height: 17%;
-}
+    width: 25%;
+    height: 27%;
+} 
 /* animação em css  para o modal */
 
 @keyframes abrirmodal {
