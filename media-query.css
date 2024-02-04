@@ -7,6 +7,41 @@
 /* Tablets em modo retrato */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Estilos para tablets em modo retrato aqui */
+    .lista-menu li{
+        font-size: 10px;
+
+    }
+    .diversao {
+        display: none;
+    }
+    .diversao1 h5 {
+        display: none;
+    }
+    .diversao1 .informaçao1 button{
+        margin-left: -18%;
+    }
+    .parceiros{
+        font-size: 30px;
+        align-items: center;
+        justify-content:center;
+    }
+    .produtos h2{
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .titu2{
+        font-size: 30px;
+        margin-left: 15%;
+    }
+    .vertodos{
+        align-items: center;
+        margin-left: 10%;
+    }
+    .navegue{
+        font-size: 35px;
+        margin-left: 10%;
+    }
 }
 
 /* Tablets em modo paisagem */
