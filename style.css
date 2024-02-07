@@ -10,6 +10,7 @@
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sarala', sans-serif;
+    max-width: 100%;
 }
 /*topo*/
 
@@ -23,6 +24,7 @@
     gap: 108px;
     color:rgb(159, 159, 159, 1);
     font-family: 'Poppins', sans-serif;
+    
 }
 .topo1{
     align-items: center;
@@ -308,7 +310,8 @@ img{
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    
 }
 .animaçao{
     width: 100%;
@@ -335,20 +338,23 @@ img{
 }
 .animaçao .informaçao1{
     background-color: rgb(255, 253, 253);
-    margin-top: -78%;
-    padding: 38px;
+    margin-top: -88%;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 380px));
+    padding: 55px;
+    padding-left: 1%;
     width: 80%;
     margin-left: 10%;
     align-items: center;
     justify-content: center;
 
 }
+
 .animaçao h5 {
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
     border: 2px;
     align-items: center ,center;
-    margin-left: -30px;
+    margin-left: 10px;
     line-height: 18px;
     color: rgb(63, 63, 64, 1);
     
@@ -361,14 +367,14 @@ img{
     text-transform: uppercase;
     color:rgb(128, 128, 128, 1);
     text-decoration: line-through;
-    margin-left: -30px;
+    margin-left: 10px;
 }
 .animaçao h4{
     height: 30px;
     font-size:20px ;
     font-family: 'Poppins', sans-serif;
     line-height: 23px;
-    margin-left: -30px;
+    margin-left: 10px;
     color:rgb(63, 63, 64, 1);
 
 }
@@ -376,7 +382,7 @@ img{
     font-size:11px ;
     font-family: 'Poppins', sans-serif;
     line-height: 15px;
-    margin-left: -30px;
+    margin-left: 10px;
     color:rgb(63, 63, 64, 1);
 
 }
@@ -392,8 +398,8 @@ height: 210%;
 width: 137%;
 line-height: 35px;
 border-radius: 4px;
-margin-top: 10%;
-margin-left: -35px;
+margin-top: 7%;
+margin-left: 5px;
 transition: all 600ms ease-in;
 text-transform: uppercase;
 }
@@ -402,7 +408,6 @@ text-transform: uppercase;
     background-color:#fcf8f9;
     color:rgba(247, 25, 99, 1);
 }
-
 
 
 /*modal*/
