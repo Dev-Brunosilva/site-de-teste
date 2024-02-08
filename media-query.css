@@ -1,5 +1,7 @@
-/* Tamanho de desktop padrão */
+
+
 @media only screen and (max-width: 1200px) {
+    
     .diversao{
         margin-left: 2%;
         align-items: center;
