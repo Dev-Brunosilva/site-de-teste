@@ -190,7 +190,7 @@ img{
     flex-direction: row;
     padding-bottom: 3rem;
     gap: 5.5%;
-    margin-left: 6%;
+    margin-left: 9%;
 }
 .diversao h3{
     color: #2A2A2A;
@@ -212,6 +212,7 @@ img{
     background-color:rgba(244, 244, 244, 1);
     color: #df23625e;
     transition: all 600ms ease-in;
+    
 }
 .diversao img:hover{
     border: 1px solid #faf9f9 ;
