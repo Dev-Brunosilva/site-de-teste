@@ -383,6 +383,12 @@ img{
     transition: all 600ms ease-in;
     text-transform: uppercase;
     }
+    .compra:hover{
+    border: 1px solid #f8f3f5 ;
+    background-color:#fcf8f9;
+    color:rgba(247, 25, 99, 1);
+    }
+    
 
 /*modal*/
 
