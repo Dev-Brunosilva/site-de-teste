@@ -107,8 +107,9 @@ img{
     border-radius: black;
 }
 .lista-menu li{
-    font-size: 11px;
-    padding: 40px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
     text-transform: uppercase;
     border: #0c0c0c;
     border-radius: black;
@@ -116,7 +117,6 @@ img{
 .lista-menu li a{
     color: rgb(159, 159, 159, 1);
     transform: al 600ms ease-in;
-    
 }
 
 .lista-menu li a:hover{
@@ -187,10 +187,10 @@ img{
     display: flex;
     text-align: center;
     align-items: center ,center;
+    justify-content: center;
     flex-direction: row;
     padding-bottom: 3rem;
     gap: 5.5%;
-    margin-left: 9%;
 }
 .diversao h3{
     color: #2A2A2A;
@@ -305,62 +305,35 @@ img{
 
 
 /* teste */
-.diversao1 {
-    width: 100%;
+.celulares{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-bottom: 5%;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
     
 }
-.animaçao{
-    width: 100%;
-    margin-bottom: -1px;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 480px));
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    flex-direction: row;
-    font-family: 'Poppins', sans-serif;
-}
-
-.diversao1 .animaçao img{
-    width: 80%;
-    height: 70%;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 380px));
-    margin-left: 10%;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 70%;
-    border-radius: 4%;
+.card{
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 410px;
+    border-radius: 10px;
     box-shadow: 0 0 10px 3px rgba(134, 127, 127, 0.5);
-}
-.animaçao .informaçao1{
-    background-color: rgb(255, 253, 253);
-    margin-top: -88%;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 380px));
-    padding: 55px;
-    padding-left: 1%;
-    width: 80%;
-    margin-left: 10%;
     align-items: center;
-    justify-content: center;
-
 }
-
-.animaçao h5 {
-    font-size: 13px;
+.card img{
+    border-bottom-left-radius: 10px;
+}
+.celulares h5 {
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     border: 2px;
+    margin-left: 4%;
     align-items: center ,center;
-    margin-left: 10px;
     line-height: 18px;
     color: rgb(63, 63, 64, 1);
-    
 }
-.animaçao .promo{
+.celulares .promo{
     height: 20px;
     margin-top: 8%;
     font-size: 15px;
@@ -368,48 +341,48 @@ img{
     text-transform: uppercase;
     color:rgb(128, 128, 128, 1);
     text-decoration: line-through;
-    margin-left: 10px;
 }
-.animaçao h4{
+.celulares h4{
     height: 30px;
     font-size:20px ;
     font-family: 'Poppins', sans-serif;
     line-height: 23px;
-    margin-left: 10px;
     color:rgb(63, 63, 64, 1);
+    margin-left: 4%;
 
 }
-.animaçao h6 {
+.celulares h6 {
     font-size:11px ;
     font-family: 'Poppins', sans-serif;
     line-height: 15px;
-    margin-left: 10px;
     color:rgb(63, 63, 64, 1);
+    margin-left: 4%;
+    margin-top: 2%;
 
 }
-.animaçao .frete{
+.celulares .frete{
     color: rgba(247, 25, 99, 1);
+    margin-left: 4%;
+    
 }
-.animaçao .compra{
-background-color:rgba(247, 25, 99, 1);
-color: #f8f3f5;
-font-size: 15px;
-font-family: 'Poppins', sans-serif;
-height: 210%;
-width: 137%;
-line-height: 35px;
-border-radius: 4px;
-margin-top: 7%;
-margin-left: 5px;
-transition: all 600ms ease-in;
-text-transform: uppercase;
-}
-.compra:hover{
-    border: 1px solid #f8f3f5 ;
-    background-color:#fcf8f9;
-    color:rgba(247, 25, 99, 1);
-}
-
+.celulares .compra{
+    background-color:rgba(247, 25, 99, 1);
+    color: #f8f3f5;
+    font-size: 15px;
+    border: none;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    transition: all 600ms ease-in;
+    text-transform: uppercase;
+    }
 
 /*modal*/
 
@@ -526,10 +499,12 @@ text-transform: uppercase;
     height: 100%;
     display: flex;
     align-items: center ;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 6%;
 }
 .parceiros .txt2{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 65px;
     height: 23vw;
     width: 40%;
     left: 110%;
@@ -538,7 +513,6 @@ text-transform: uppercase;
 }
 .parceiros .txt3{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 120px;
     height: 23vw;
     width: 40%;
     left: 100%;
@@ -596,7 +570,6 @@ text-transform: uppercase;
     justify-content: center ,center;
     color:  rgba(247, 25, 99, 1);
     text-decoration: none;
-    margin-left: 80px;
     height: 10px;
 }
 .vertodos {
@@ -606,9 +579,10 @@ text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     margin: 40px;
     text-align: center;
+    justify-content: center;
     justify-content: center ,center;
     color:  #0c0c0c;
-    margin-left: 40px;
+    
 }
 
 /*produtos */
@@ -619,10 +593,12 @@ text-transform: uppercase;
     display: flex;
     flex-direction:row;
     align-items: center ;
+    justify-content: center;
+    gap: 4%;
 }
 .produtos .txt4{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 90px;
+    
     height: 20vw;
     width: 37%;
     left: 100%;
@@ -631,7 +607,7 @@ text-transform: uppercase;
 }
 .produtos .txt5{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    margin-left: 140px;
+    
     height: 20vw;
     width: 37%;
     left: 100%;
@@ -686,7 +662,6 @@ text-transform: uppercase;
     justify-content: center ,center;
     color:  rgba(247, 25, 99, 1);
     text-decoration: none;
-    margin-left: 10px;
     height: 70px;
 }
 /* imagens vtex */
