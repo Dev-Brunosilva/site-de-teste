@@ -1,0 +1,182 @@
+@media only screen and (min-width: 1700px)
+{ 
+    .card{
+        width: 370px;
+        height: 470px;
+        display: block;
+    }
+    .login{
+        width: 290px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 1350px)
+{ 
+    .card{
+        width: 350px;
+        height: 450px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .lista-menu li{
+        font-size: 9px;
+    }
+    .diversao{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .produtos h2{
+        font-size: 25px;
+    }
+    .parceiros h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
+    .lista-menu li{
+        font-size: 8px;
+    }
+    .diversao{
+        display: none;
+    }
+    .txt2{
+        font-size: 10px;
+    }
+    .txt1{
+        font-size: 10px;
+    }
+    .card1{
+        width: 350px;
+        height: 450px;
+    }
+    .card2{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .produtos {
+        display: none;
+    }
+    .parceiros {
+        display: none;
+    }
+    .titu2 {
+    display: none;
+    }
+    .vertodos{
+        display: none;
+    }
+    .txt6{
+        font-size: 8px;
+    }
+    .txt7{
+        font-size: 8px;
+    }
+    .pagamentos .txt8{
+        font-size: 10px;
+    }
+    .txt9{
+        font-size: 8px;
+    }
+    
+    .pagamentos img{
+        width: 70%;
+        height: 50%;
+    }
+    
+}
+@media only screen and (max-width: 575px) { 
+    .topo1{
+        font-size: 8px;
+    }
+    .texto{
+        font-size: 10px;
+    }
+    .texto h1{
+        font-size: 30px;
+    }
+    .texto h3{
+        font-size: 30px;
+    }
+    .cabecalho li{
+        display: none;
+    }
+    .lista-menu li{
+        font-size: 6px;
+    }
+    .diversao{
+        display: none;
+    }
+    .txt2{
+        font-size: 8px;
+    }
+    .txt1{
+        font-size: 8px;
+    }
+    .card1{
+        width: 350px;
+        height: 450px;
+    }
+    .card2{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .produtos {
+        display: none;
+    }
+    .parceiros {
+        display: none;
+    }
+    .titu2 {
+    display: none;
+    }
+    .vertodos{
+        display: none;
+    }
+    .navegue{
+        font-size: 22px;
+    }
+    .txt6{
+        font-size: 8px;
+    }
+    .txt9{
+        font-size: 8px;
+    }
+    .pagamentos .txt8{
+        font-size: 10px;
+    }
+    .pagamentos img{
+        width: 70%;
+        height: 50%;
+    }
+    .txt7
+    {
+        font-size: 6px;
+    }
+
+}
+
+
+

@@ -310,9 +310,9 @@ img{
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    
 }
 .card{
+    
     margin: 40px;
     background-color: rgb(255, 255, 255);
     width: 350px;
@@ -320,6 +320,7 @@ img{
     border-radius: 10px;
     box-shadow: 0 0 10px 3px rgba(134, 127, 127, 0.5);
     align-items: center;
+    
 }
 .card img{
     border-bottom-left-radius: 10px;
@@ -332,6 +333,7 @@ img{
     align-items: center ,center;
     line-height: 18px;
     color: rgb(63, 63, 64, 1);
+    
 }
 .celulares .promo{
     height: 20px;
@@ -370,7 +372,6 @@ img{
     color: #f8f3f5;
     font-size: 15px;
     border: none;
-    display: flex;
     margin-left: 5%;
     margin-top: 3%;
     text-align: center;
@@ -552,7 +553,6 @@ img{
     background-color: rgba(247, 25, 99, 1);
     color: #f8f3f5;
     font-size: 13px;
-    font-weight: 900;
     height: 15%;
     width: 25%;
     margin-left: 40px;
@@ -604,7 +604,6 @@ img{
 }
 .produtos .txt4{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    
     height: 20vw;
     width: 37%;
     left: 100%;
@@ -613,7 +612,6 @@ img{
 }
 .produtos .txt5{
     background-image:linear-gradient( rgba(173, 155, 155, 0) , rgba(2, 2, 2, 0.781)), url(./img/imagemsala.png);
-    
     height: 20vw;
     width: 37%;
     left: 100%;
@@ -708,13 +706,11 @@ img{
 .rodape1 i {
     height: 19%;
     width: 7%;
-    top: 20px;
+    top: 30px;
     color: #f8f3f5;
     
 }
 .txt6{
-    margin-top: 10%;
-    height: 9vh ;
     color: #f8f3f5;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
@@ -725,11 +721,9 @@ img{
 .txt7{
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
-    height:5vh ;
     color: #9b8c92;
 }
 .rodape1 .txt8 {
-    height: 8vh;
     color: #fdfcfd;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -752,26 +746,28 @@ img{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-right: 90px;
+    margin-right: 100px;
+    margin-top: 5%;
 
 }
 .login{
     width: 250px;
-    height: 160px;
+    height: 180px;
     left: 700px;
     border-radius: 10px;
     background-color: #f8f3f5;
     gap: 10px;
+    display: block;
 }
 .login span{
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
     text-transform: lowercase;
-    height: 1vw;
     align-items: center;
     justify-content: center;
+    display: block;
     margin-left: 7px;
-    margin-top: 9px;
+    margin-bottom: 4%;
     color: #2A2A2A;
 
 }
@@ -793,13 +789,7 @@ img{
     height: 30px;
     margin-left: 19px;
     margin-top: 7px;
-    
-}
-.login input{
-    height: 30px;
-    margin-left: 19px;
-    margin-top: 7px;
-    
+    margin-bottom: 4%;
 }
 .botao1{
     background-color:rgba(247, 25, 99, 1);
