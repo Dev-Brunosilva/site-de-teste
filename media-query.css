@@ -29,6 +29,12 @@
     .card3{
         display: none;
     }
+    .texto h1{
+        font-size: 30px;
+    }
+    .texto h3{
+        font-size: 30px;
+    }
     .login{
         display: none;
     }
@@ -45,6 +51,12 @@
     }
     .diversao{
         display: none;
+    }
+    .texto h1{
+        font-size: 30px;
+    }
+    .texto h3{
+        font-size: 30px;
     }
     .txt2{
         font-size: 10px;
